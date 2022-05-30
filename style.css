@@ -62,8 +62,7 @@ button:hover {
 }
 
 /* heading */
-h3,
-label[for="new-task"] {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -89,7 +88,7 @@ input[type="text"]:focus {
 }
 
 /* new task */
-label[for="new-task"] {
+h3 {
   display: block;
   margin: 0 0 20px;
 }
@@ -131,7 +130,7 @@ button.delete img:hover {
 }
 
 /* completed */
-ul#completed-tasks label {
+ul#completed-tasks-list label {
   text-decoration: line-through;
   color: #888;
 }
